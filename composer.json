@@ -1,10 +1,11 @@
 {
-    "name": "sting_bo/mengine",
-    "description": "Matching Engine For Laravel",
+    "name": "hiblockchain/mengine",
+    "description": "Matching Engine For PHP,Based on Redis,High-Performance",
     "require": {
         "php": "^7.4",
         "predis/predis": "^1.1",
-        "ext-bcmath": "*"
+        "ext-bcmath": "*",
+        "symfony/event-dispatcher": "^5.4"
     },
     "license": "MIT",
     "authors": [
